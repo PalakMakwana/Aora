@@ -4,8 +4,8 @@ import React from 'react';
 
 export default function App() {
   return (
-   <View className="flex-1 items-center justify-center bg-white">
-      <Text>Open up App.js to start working on your app!</Text>
+   <View className="flex-1 justify-center items-center bg-black h-full">
+      <Text className="text-white text-center text-3xl">Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
   );
